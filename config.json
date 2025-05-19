@@ -1,0 +1,14 @@
+{
+  "warning_temperature": 80,
+  "warning_utilization": 90,
+  "check_interval_minutes": 3,
+  "log_file": "logs/gpu_log.csv",
+  "email_settings": {
+    "sender": "dummy_tech@example.com",
+    "recipient": "support_team@example.com",
+    "smtp_server": "smtp.example.com",
+    "port": 587,
+    "username": "your_username",
+    "password": "your_password"
+  }
+}
