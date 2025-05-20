@@ -52,5 +52,5 @@ def check_gpu(config):
 
         summary_lines.append(f"{name}: Temp={temp}°C, Util={util}%, Mem={used_mb:.1f}/{total_mb:.1f} MB")
 
-    # nvmlShutdown()
-    # return alerts, summary_lines
+    nvmlShutdown()
+    return alerts, summary_lines
